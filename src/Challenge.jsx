@@ -7,6 +7,7 @@ const CodeChallengePusher = () => {
   const [streak, setStreak] = useState(0);
   const [difficulty, setDifficulty] = useState('medium');
 
+  
   const challenges = {
     beginner: [
       { 
